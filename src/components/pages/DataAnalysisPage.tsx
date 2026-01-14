@@ -53,7 +53,7 @@ export default function DataAnalysisPage() {
             Data & Analysis
           </h1>
           <p className="font-paragraph text-xl text-secondary-foreground max-w-3xl mx-auto leading-relaxed">
-            Statistical evidence and analytical findings that illuminate the quantitative dimensions of corruption's impact on Nigeria.
+            Statistical evidence and analytical findings that illuminate the quantitative dimensions of corruption's impact on Nigeria. This section presents data-driven insights from credible sources including government reports, international organizations, and academic research to demonstrate the measurable effects of corrupt practices on economic indicators and public welfare.
           </p>
         </motion.div>
       </section>

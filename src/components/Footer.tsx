@@ -10,6 +10,14 @@ export default function Footer() {
             <p className="font-paragraph text-base text-secondary-foreground/80 leading-relaxed max-w-xl">
               An academic investigation into corruption's impact on Nigerian finances and resource access. Completed as part of the Grade 10 IGCSE Global Perspectives curriculum.
             </p>
+            <div className="pt-4">
+              <h4 className="font-heading text-lg text-secondary-foreground mb-2">
+                Research Team
+              </h4>
+              <p className="font-paragraph text-base text-secondary-foreground/80">
+                Christopher, Asher, and Tomisin
+              </p>
+            </div>
           </div>
           
           <div className="space-y-4 md:text-right">

@@ -72,7 +72,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="font-paragraph text-xl md:text-2xl text-primary leading-relaxed max-w-md"
             >
-              An investigative examination into the systemic effects of corruption on Nigeria's economic stability and resource distribution.
+              An investigative examination into the systemic effects of corruption on Nigeria's economic stability and resource distribution. This comprehensive research project analyzes documented cases, statistical evidence, and economic data to reveal the profound impact of corrupt practices on national development and citizen welfare.
             </motion.p>
             
             <motion.div
@@ -151,15 +151,15 @@ const ResearchQuestion = () => {
             {[
               {
                 title: "Systemic Instability",
-                text: "This investigation explores the multifaceted relationship between corrupt practices and their tangible consequences on Nigeria's economic infrastructure. It is not merely about lost funds, but the erosion of foundational systems."
+                text: "This investigation explores the multifaceted relationship between corrupt practices and their tangible consequences on Nigeria's economic infrastructure. It is not merely about lost funds, but the erosion of foundational systems that support national development. When public officials divert resources meant for infrastructure, healthcare, and education, the ripple effects destabilize entire sectors, creating a cycle of underdevelopment that affects millions of citizens across generations."
               },
               {
                 title: "Resource Inequality",
-                text: "Through rigorous analysis of case studies, we uncover how misappropriation directly correlates with the scarcity of public services. The gap between potential wealth and actual resource availability is the focal point of this study."
+                text: "Through rigorous analysis of case studies, we uncover how misappropriation directly correlates with the scarcity of public services. The gap between potential wealth and actual resource availability is the focal point of this study. Nigeria's vast oil reserves and natural resources should translate into prosperity for its citizens, yet corruption creates a paradox where the nation remains resource-rich but development-poor, with essential services like clean water, electricity, and healthcare remaining inaccessible to large segments of the population."
               },
               {
                 title: "Evidence-Based Analysis",
-                text: "Utilizing statistical data and documented evidence, this project reveals the systemic patterns that perpetuate financial instability. We move beyond anecdote to establish a clear causal link between corruption and economic stagnation."
+                text: "Utilizing statistical data and documented evidence, this project reveals the systemic patterns that perpetuate financial instability. We move beyond anecdote to establish a clear causal link between corruption and economic stagnation. By examining specific cases, financial records, and economic indicators, we demonstrate how corrupt practices create measurable deficits in public spending, infrastructure quality, and social service delivery, ultimately undermining Nigeria's economic potential and global competitiveness."
               }
             ].map((item, index) => (
               <motion.div 
@@ -227,21 +227,21 @@ const ProjectComponents = () => {
     {
       id: "01",
       title: "Case Studies",
-      desc: "Detailed examinations of specific corruption incidents and their documented financial impacts.",
+      desc: "Detailed examinations of specific corruption incidents and their documented financial impacts on Nigeria's economy and public services.",
       link: "/case-studies",
       icon: <FileText className="w-8 h-8" />
     },
     {
       id: "02",
       title: "Data & Analysis",
-      desc: "Statistical evidence, charts, and analytical findings supporting the research conclusions.",
+      desc: "Statistical evidence, charts, and analytical findings supporting the research conclusions with data from credible sources.",
       link: "/data-analysis",
       icon: <BarChart2 className="w-8 h-8" />
     },
     {
       id: "03",
       title: "Sources & References",
-      desc: "Complete bibliography and citations documenting all research materials.",
+      desc: "Complete bibliography and citations documenting all research materials, including academic sources and official reports.",
       link: "/sources",
       icon: <BookOpen className="w-8 h-8" />
     }
@@ -476,25 +476,25 @@ const Methodology = () => {
     {
       num: "01",
       title: "Literature Review",
-      desc: "Comprehensive analysis of academic papers, reports, and documented cases.",
+      desc: "Comprehensive analysis of academic papers, government reports, international studies, and documented corruption cases to establish a solid theoretical foundation.",
       icon: <Globe className="w-6 h-6" />
     },
     {
       num: "02",
       title: "Data Collection",
-      desc: "Gathering statistical evidence from credible national and international sources.",
+      desc: "Gathering statistical evidence from credible national and international sources, including the World Bank, Transparency International, and Nigerian government agencies.",
       icon: <TrendingDown className="w-6 h-6" />
     },
     {
       num: "03",
       title: "Case Analysis",
-      desc: "Detailed examination of specific corruption incidents and their documented impacts.",
+      desc: "Detailed examination of specific corruption incidents and their documented impacts on financial systems, infrastructure development, and public resource allocation.",
       icon: <Scale className="w-6 h-6" />
     },
     {
       num: "04",
       title: "Synthesis",
-      desc: "Integration of findings to establish patterns and draw evidence-based conclusions.",
+      desc: "Integration of findings to establish patterns and draw evidence-based conclusions about the relationship between corruption and Nigeria's economic challenges.",
       icon: <FileText className="w-6 h-6" />
     }
   ];

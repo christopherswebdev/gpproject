@@ -42,7 +42,7 @@ export default function CaseStudiesPage() {
             Case Studies
           </h1>
           <p className="font-paragraph text-xl text-secondary-foreground max-w-3xl mx-auto leading-relaxed">
-            Documented examples of corruption incidents in Nigeria, examining their specific impacts on financial systems and resource distribution.
+            Documented examples of corruption incidents in Nigeria, examining their specific impacts on financial systems and resource distribution. Each case study provides detailed analysis of how corrupt practices have affected public funds, infrastructure projects, and citizen access to essential services.
           </p>
         </motion.div>
       </section>
