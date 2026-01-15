@@ -29,7 +29,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-12 pt-8 border-t border-secondary-foreground/20">
-          <p className="font-paragraph text-sm text-secondary-foreground/60 text-center">{"© 2026 IGCSE Global Perspectives Project. All research conducted for educational purposes. notthing but nut"}</p>
+          <p className="font-paragraph text-sm text-secondary-foreground/60 text-center">{"© 2026 IGCSE Global Perspectives Project. All research conducted for educational purposes. nothing but nut"}</p>
         </div>
       </div>
     </footer>
