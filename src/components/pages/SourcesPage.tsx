@@ -66,7 +66,7 @@ export default function SourcesPage() {
             Sources & References
           </h1>
           <p className="font-paragraph text-xl text-secondary-foreground max-w-3xl mx-auto leading-relaxed">
-            A comprehensive bibliography of all sources consulted and cited throughout this research project. This collection includes academic journals, government reports, international organization publications, and credible news sources that provide the foundation for our analysis of corruption's impact on Nigeria's economy and resource distribution.
+            A comprehensive bibliography of all sources consulted and cited throughout this research project. This collection includes academic journals, NGO reports, international organization publications, government data, and credible sources that provide the foundation for our analysis of energy access, vegetable spoilage, and climate change impacts in Nigeria's food industry.
           </p>
         </motion.div>
       </section>

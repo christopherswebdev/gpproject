@@ -20,7 +20,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo/Title */}
           <Link to="/" className="font-heading text-2xl md:text-3xl text-primary">
-            Nigeria Corruption Study
+            Climate & Energy in Nigeria
           </Link>
 
           {/* Desktop Navigation */}

@@ -8,7 +8,7 @@ export default function Footer() {
               IGCSE Global Perspectives Project
             </h3>
             <p className="font-paragraph text-base text-secondary-foreground/80 leading-relaxed max-w-xl">
-              An academic investigation into corruption's impact on Nigerian finances and resource access. Completed as part of the Grade 10 IGCSE Global Perspectives curriculum.
+              An in-depth research project examining how the lack of affordable, off-grid electricity in Nigeria affects vegetable spoilage in the food industry. Exploring climate change, energy, and resources through local, national, and global perspectives.
             </p>
             <div className="pt-4">
               <h4 className="font-heading text-lg text-secondary-foreground mb-2">

@@ -47,7 +47,7 @@ const Hero = () => {
           transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
           className="font-heading text-[15vw] md:text-[13vw] leading-[0.85] text-primary text-center tracking-tight"
         >
-          Unveiling <br className="md:hidden" /> Corruption
+          Energy Crisis <br className="md:hidden" /> & Food Loss
         </motion.h1>
       </div>
 
@@ -72,7 +72,7 @@ const Hero = () => {
               transition={{ duration: 0.8, delay: 0.5 }}
               className="font-paragraph text-xl md:text-2xl text-primary leading-relaxed max-w-md"
             >
-              An investigative examination into the systemic effects of corruption on Nigeria's economic stability and resource distribution. This comprehensive research project analyzes documented cases, statistical evidence, and economic data to reveal the profound impact of corrupt practices on national development and citizen welfare.
+              An in-depth investigation into how the lack of affordable, off-grid electricity in Nigeria drives high rates of vegetable spoilage in the food industry. This research examines the intersection of climate change, energy access, and food security through local, national, and global perspectives.
             </motion.p>
             
             <motion.div
@@ -140,7 +140,7 @@ const ResearchQuestion = () => {
             >
               <span className="block font-paragraph text-sm tracking-[0.2em] uppercase mb-8 opacity-60">The Core Inquiry</span>
               <h2 className="font-heading text-5xl md:text-6xl lg:text-7xl leading-[1.1]">
-                How does corruption in Nigeria affect the country's finances and access to resources?
+                How does the lack of affordable, off-grid electricity in Nigeria affect the high rate of vegetable spoilage in Nigeria's food industry?
               </h2>
               <div className="w-24 h-1 bg-secondary-foreground/30 mt-12" />
             </motion.div>
@@ -150,16 +150,16 @@ const ResearchQuestion = () => {
           <div className="flex flex-col gap-32 lg:pt-20 lg:pb-40">
             {[
               {
-                title: "Systemic Instability",
-                text: "This investigation explores the multifaceted relationship between corrupt practices and their tangible consequences on Nigeria's economic infrastructure. It is not merely about lost funds, but the erosion of foundational systems that support national development. When public officials divert resources meant for infrastructure, healthcare, and education, the ripple effects destabilize entire sectors, creating a cycle of underdevelopment that affects millions of citizens across generations."
+                title: "Energy Access Crisis",
+                text: "Nigeria faces a critical energy infrastructure challenge, with over 85 million people lacking access to reliable electricity. In the agricultural sector, this energy deficit has devastating consequences. Farmers and food distributors cannot afford or access off-grid electricity solutions for refrigeration, leading to massive post-harvest losses. Without proper cold chain infrastructure, vegetables spoil within hours of harvest, especially in Nigeria's hot climate, creating a vicious cycle of food waste and economic loss."
               },
               {
-                title: "Resource Inequality",
-                text: "Through rigorous analysis of case studies, we uncover how misappropriation directly correlates with the scarcity of public services. The gap between potential wealth and actual resource availability is the focal point of this study. Nigeria's vast oil reserves and natural resources should translate into prosperity for its citizens, yet corruption creates a paradox where the nation remains resource-rich but development-poor, with essential services like clean water, electricity, and healthcare remaining inaccessible to large segments of the population."
+                title: "Food Security Impact",
+                text: "Nigeria loses approximately 40-50% of its vegetable production to post-harvest spoilage, with energy access being a primary factor. The lack of affordable refrigeration means that fresh produce cannot be stored or transported effectively from rural farming areas to urban markets. This not only affects food availability and prices but also undermines farmers' livelihoods, discourages agricultural investment, and contributes to malnutrition. The connection between energy poverty and food insecurity creates a barrier to sustainable development."
               },
               {
-                title: "Evidence-Based Analysis",
-                text: "Utilizing statistical data and documented evidence, this project reveals the systemic patterns that perpetuate financial instability. We move beyond anecdote to establish a clear causal link between corruption and economic stagnation. By examining specific cases, financial records, and economic indicators, we demonstrate how corrupt practices create measurable deficits in public spending, infrastructure quality, and social service delivery, ultimately undermining Nigeria's economic potential and global competitiveness."
+                title: "Climate Change Connection",
+                text: "Rising temperatures due to climate change exacerbate the spoilage problem, making refrigeration even more critical. Yet Nigeria's energy infrastructure remains heavily dependent on fossil fuels and centralized grids that fail to reach rural agricultural areas. The absence of affordable solar-powered cold storage and off-grid renewable energy solutions perpetuates environmental degradation while simultaneously increasing food waste. This research examines how sustainable energy access could transform Nigeria's food industry and reduce climate impact."
               }
             ].map((item, index) => (
               <motion.div 
@@ -213,7 +213,7 @@ const ImpactVisual = () => {
           transition={{ duration: 1 }}
           className="font-heading text-4xl md:text-6xl text-secondary-foreground leading-tight"
         >
-          "Corruption is not just a financial crime; it is a resource crisis that reshapes the destiny of a nation."
+          "Energy access is not just about electricity; it is about food security, economic opportunity, and the future of sustainable development."
         </motion.p>
       </div>
     </section>
@@ -227,21 +227,21 @@ const ProjectComponents = () => {
     {
       id: "01",
       title: "Case Studies",
-      desc: "Detailed examinations of specific corruption incidents and their documented financial impacts on Nigeria's economy and public services.",
+      desc: "Real-world examples of how energy access challenges affect vegetable spoilage rates, farmer livelihoods, and food distribution in Nigeria.",
       link: "/case-studies",
       icon: <FileText className="w-8 h-8" />
     },
     {
       id: "02",
       title: "Data & Analysis",
-      desc: "Statistical evidence, charts, and analytical findings supporting the research conclusions with data from credible sources.",
+      desc: "Statistical evidence on energy access, spoilage rates, economic losses, and climate impacts with data from credible sources.",
       link: "/data-analysis",
       icon: <BarChart2 className="w-8 h-8" />
     },
     {
       id: "03",
       title: "Sources & References",
-      desc: "Complete bibliography and citations documenting all research materials, including academic sources and official reports.",
+      desc: "Complete bibliography documenting all research materials, including academic sources, NGO reports, and government data.",
       link: "/sources",
       icon: <BookOpen className="w-8 h-8" />
     }
@@ -306,21 +306,21 @@ const MultiPerspective = () => {
       level: "Global",
       badge: "bg-primary/10 text-primary",
       title: "International Context",
-      content: "Nigeria ranks 145th out of 180 countries in Transparency International's 2023 Corruption Perceptions Index. This places the nation among the most corrupt globally, affecting foreign investment, international aid distribution, and global economic partnerships. The World Bank estimates that corruption costs developing nations like Nigeria up to $1 trillion annually in lost economic growth.",
+      content: "Globally, one-third of all food produced is wasted, with developing nations losing most food during production and post-harvest stages due to inadequate infrastructure. The UN estimates that 690 million people face hunger while food waste contributes 8-10% of global greenhouse gas emissions. International efforts like the UN Sustainable Development Goals (SDG 7: Affordable Clean Energy and SDG 12: Responsible Consumption) recognize that energy access is fundamental to reducing food waste and achieving climate targets.",
       icon: <Globe className="w-8 h-8" />
     },
     {
       level: "National",
       badge: "bg-secondary text-secondary-foreground",
       title: "Federal Impact",
-      content: "At the national level, corruption manifests through embezzlement of public funds, contract inflation, and mismanagement of oil revenues. The Nigerian Economic and Financial Crimes Commission (EFCC) reports that between 2016-2020, over ₦1.3 trillion was recovered from corrupt officials. Yet, this represents only a fraction of estimated losses. National infrastructure projects face chronic delays and cost overruns, with funds diverted from healthcare, education, and essential services.",
+      content: "Nigeria has Africa's largest economy but faces severe energy poverty, with only 55% of the population having access to electricity. The national grid is unreliable, with frequent blackouts affecting food storage facilities. The agricultural sector, which employs 70% of the rural population, suffers annual losses exceeding ₦3.5 trillion due to post-harvest waste. Government initiatives to expand renewable energy and cold chain infrastructure have been slow, leaving farmers dependent on expensive diesel generators or without refrigeration entirely.",
       icon: <Scale className="w-8 h-8" />
     },
     {
       level: "Local",
       badge: "bg-accent text-accent-foreground",
       title: "Community Effects",
-      content: "Local communities bear the most direct consequences of corruption. Citizens face daily challenges: non-functional healthcare facilities, deteriorating roads, inadequate water supply, and underfunded schools. In rural areas, ghost worker schemes drain local government budgets while essential services remain unfunded. Small businesses struggle with extortion and bribery demands, stifling entrepreneurship and economic mobility at the grassroots level.",
+      content: "In rural farming communities, the absence of affordable off-grid electricity means vegetables must be sold immediately after harvest or they spoil. Farmers lose 40-50% of their produce, directly impacting household incomes and food security. Women, who dominate vegetable farming, are disproportionately affected. Local markets lack cold storage, forcing traders to sell at low prices before spoilage. Communities face higher food prices, reduced nutrition, and limited economic opportunities due to this energy-food nexus.",
       icon: <TrendingDown className="w-8 h-8" />
     }
   ];
@@ -387,35 +387,35 @@ const MultiPerspective = () => {
 const Solutions = () => {
   const solutions = [
     {
-      category: "Institutional Reform",
+      category: "Off-Grid Renewable Energy",
       items: [
-        "Strengthen anti-corruption agencies with operational independence and adequate funding",
-        "Implement transparent public procurement systems with digital tracking",
-        "Establish whistleblower protection programs with guaranteed anonymity"
+        "Deploy affordable solar-powered cold storage units in farming communities",
+        "Provide subsidies and microfinance for farmers to purchase renewable energy systems",
+        "Establish solar-powered cooling hubs at local markets and distribution centers"
       ]
     },
     {
-      category: "Technological Innovation",
+      category: "Cold Chain Infrastructure",
       items: [
-        "Deploy blockchain technology for government financial transactions",
-        "Create public databases for contract awards and budget allocations",
-        "Utilize AI-powered systems to detect irregular spending patterns"
+        "Build decentralized refrigerated storage facilities in agricultural zones",
+        "Develop mobile cold storage solutions for vegetable transportation",
+        "Create community-shared cooling facilities to reduce individual costs"
       ]
     },
     {
-      category: "Legal & Judicial",
+      category: "Policy & Investment",
       items: [
-        "Fast-track corruption cases through specialized courts",
-        "Enforce asset declaration requirements for public officials",
-        "Implement stricter penalties including asset forfeiture and lengthy prison terms"
+        "Implement tax incentives for renewable energy adoption in agriculture",
+        "Increase government funding for rural electrification projects",
+        "Attract private sector investment in off-grid energy solutions through public-private partnerships"
       ]
     },
     {
-      category: "Civic Engagement",
+      category: "Farmer Education & Support",
       items: [
-        "Promote civic education on citizens' rights and anti-corruption mechanisms",
-        "Support investigative journalism and media freedom",
-        "Encourage community-based monitoring of local government projects"
+        "Train farmers on proper post-harvest handling and storage techniques",
+        "Establish cooperatives to share costs of refrigeration infrastructure",
+        "Provide technical support for maintaining and operating off-grid energy systems"
       ]
     }
   ];
@@ -434,7 +434,7 @@ const Solutions = () => {
             Potential Solutions
           </h2>
           <p className="font-paragraph text-lg opacity-80 max-w-3xl leading-relaxed">
-            Addressing corruption in Nigeria requires a comprehensive, multi-faceted approach combining institutional reform, technological innovation, legal enforcement, and civic participation.
+            Addressing vegetable spoilage through improved energy access requires a comprehensive approach combining renewable energy deployment, infrastructure development, policy support, and farmer empowerment.
           </p>
         </motion.div>
 
@@ -476,25 +476,25 @@ const Methodology = () => {
     {
       num: "01",
       title: "Literature Review",
-      desc: "Comprehensive analysis of academic papers, government reports, international studies, and documented corruption cases to establish a solid theoretical foundation.",
+      desc: "Comprehensive analysis of academic papers, NGO reports, and international studies on energy access, food waste, and climate change in developing nations, with focus on Nigeria.",
       icon: <Globe className="w-6 h-6" />
     },
     {
       num: "02",
       title: "Data Collection",
-      desc: "Gathering statistical evidence from credible national and international sources, including the World Bank, Transparency International, and Nigerian government agencies.",
+      desc: "Gathering statistical evidence from credible sources including the World Bank, FAO, Nigerian Bureau of Statistics, and energy sector reports on electricity access and food loss.",
       icon: <TrendingDown className="w-6 h-6" />
     },
     {
       num: "03",
       title: "Case Analysis",
-      desc: "Detailed examination of specific corruption incidents and their documented impacts on financial systems, infrastructure development, and public resource allocation.",
+      desc: "Detailed examination of specific farming communities, market systems, and distribution networks to document the direct impact of energy access on vegetable spoilage rates.",
       icon: <Scale className="w-6 h-6" />
     },
     {
       num: "04",
       title: "Synthesis",
-      desc: "Integration of findings to establish patterns and draw evidence-based conclusions about the relationship between corruption and Nigeria's economic challenges.",
+      desc: "Integration of findings to establish clear connections between energy poverty, food waste, and climate impacts, proposing evidence-based solutions for sustainable development.",
       icon: <FileText className="w-6 h-6" />
     }
   ];
