@@ -11,12 +11,8 @@ export default function Footer() {
               An in-depth research project examining how the lack of affordable, off-grid electricity in Nigeria affects vegetable spoilage in the food industry. Exploring climate change, energy, and resources through local, national, and global perspectives.
             </p>
             <div className="pt-4">
-              <h4 className="font-heading text-lg text-secondary-foreground mb-2">
-                Research Team
-              </h4>
-              <p className="font-paragraph text-base text-secondary-foreground/80">
-                Christopher, Asher, and Tomisin
-              </p>
+              <h4 className="font-heading text-lg text-secondary-foreground mb-2">{"The Team"}</h4>
+              <p className="font-paragraph text-base text-secondary-foreground/80">{"Christopher, Asher, Tomisin, Joy, and Myra"}</p>
             </div>
           </div>
           
@@ -33,9 +29,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-12 pt-8 border-t border-secondary-foreground/20">
-          <p className="font-paragraph text-sm text-secondary-foreground/60 text-center">
-            © 2026 IGCSE Global Perspectives Project. All research conducted for educational purposes.
-          </p>
+          <p className="font-paragraph text-sm text-secondary-foreground/60 text-center">{"© 2026 IGCSE Global Perspectives Project. All research conducted for educational purposes. notthing but nut"}</p>
         </div>
       </div>
     </footer>
